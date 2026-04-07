@@ -1,0 +1,19 @@
+# Seguridad: Nunca subir credenciales ni certificados
+credentials.json
+*.pem
+*.key
+
+# Datos: No subir reportes generados ni listas de dispositivos locales
+output/
+*.xlsx
+*.csv
+!config/Lista.xlsx.sample
+
+# Python: Archivos temporales y entornos virtuales
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# Logs de ejecución
+*.log
