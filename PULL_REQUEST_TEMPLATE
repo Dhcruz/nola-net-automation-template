@@ -1,0 +1,20 @@
+### 3. El `PULL_REQUEST_TEMPLATE.md` (Gobernanza)
+Este archivo aparece automáticamente cuando alguien quiere subir un cambio. Obliga al equipo a seguir una lista de verificación de calidad.
+
+**Contenido sugerido:**
+```markdown
+## Descripción del Cambio
+*¿Qué problema resuelve este cambio en la automatización?*
+
+## Tipo de Cambio
+- [ ] Bugfix (corrección de errores en la conexión)
+- [ ] Nueva funcionalidad (nuevo comando Cisco o soporte a otro vendor)
+- [ ] Documentación (actualización de README o manuales)
+
+## Checklist de Calidad NoLA
+- [ ] **Pruebas en Staging:** ¿El script fue probado en equipos de laboratorio/prueba?
+- [ ] **Seguridad:** ¿Se verificó que no hay contraseñas "hardcoded" en el código?
+- [ ] **Documentación:** ¿Se actualizaron los comentarios en el script?
+
+## Revisores Sugeridos
+@Daniel / @SergioRomero
